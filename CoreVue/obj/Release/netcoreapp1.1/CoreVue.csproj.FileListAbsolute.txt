@@ -1,0 +1,10 @@
+D:\MySource\CoreVue\CoreVue\bin\Release\netcoreapp1.1\CoreVue.deps.json
+D:\MySource\CoreVue\CoreVue\bin\Release\netcoreapp1.1\CoreVue.runtimeconfig.json
+D:\MySource\CoreVue\CoreVue\bin\Release\netcoreapp1.1\CoreVue.runtimeconfig.dev.json
+D:\MySource\CoreVue\CoreVue\bin\Release\netcoreapp1.1\CoreVue.dll
+D:\MySource\CoreVue\CoreVue\bin\Release\netcoreapp1.1\CoreVue.pdb
+D:\MySource\CoreVue\CoreVue\obj\Release\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\MySource\CoreVue\CoreVue\obj\Release\netcoreapp1.1\CoreVue.AssemblyInfo.cs
+D:\MySource\CoreVue\CoreVue\obj\Release\netcoreapp1.1\CoreVue.dll
+D:\MySource\CoreVue\CoreVue\obj\Release\netcoreapp1.1\CoreVue.pdb
+D:\MySource\CoreVue\CoreVue\obj\Release\netcoreapp1.1\CoreVue.csprojResolveAssemblyReference.cache

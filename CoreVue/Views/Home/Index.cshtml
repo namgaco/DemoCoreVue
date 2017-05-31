@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@section scripts{
+    @*<script src="~/js/app.js" type="text/javascript"></script>*@
+}
+<div id="app">
+    {{ message }}
+</div>
+
+<div id="hook-arguments-example">
+        <input v-model="message" />
+        <p v-input-html="message">abcngasdgsakgh</p>
+        <p>{{message}}</p>
+</div>
+
+<div id="hook-arguments-example1">
+    <input v-model="message" />
+    <input v-input-value="message" value="Tung khung" />
+    <p>{{message}}</p>
+</div>
+
