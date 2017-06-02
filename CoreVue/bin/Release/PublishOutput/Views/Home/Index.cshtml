@@ -2,8 +2,42 @@
     ViewData["Title"] = "Home Page";
 }
 @section scripts{
-    
+    @*<script src="~/js/app.js" type="text/javascript"></script>*@
 }
 <div id="app">
     {{ message }}
 </div>
+
+<div id="hook-arguments-example">
+        <input v-model="message" />
+        <p v-input-html="message">abcngasdgsakgh</p>
+        <p>{{message}}</p>
+</div>
+
+<div id="hook-arguments-example1">
+    <input v-model="message" />
+    <input v-input-value="message" v-bind:class="message" value="Tung khung" />
+    <p>{{message}}</p>
+</div>
+<div id="hook-arguments-example2">
+    <div v-for="n in  [1,2,3,4]">{{n}}</div>
+   <div v-add-item="students">
+       <div prop="Name">Nguyen van a</div>
+       <div prop="BirthDay">1978</div>
+   </div>  
+    <div v-add-item="students">
+        <div prop="Name">
+            Nguyen van b
+        </div>
+        <div prop="BirthDay">1998</div>
+    </div>    
+    <div v-for="student in students">
+        <div>{{student.Name}}</div>
+        <div>{{student.BirthDay}}</div>
+    </div>    
+  <input v-model="value" />
+    <component-text v-bind:dvalue="value"></component-text>
+    <component-button></component-button>
+    <label>{{value}}</label>
+</div>
+
